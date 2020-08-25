@@ -1,0 +1,2 @@
+1) A- git init tem como propósito iniciar um repositório a partir de um diretório com dados
+B- git clone tem como propósito clonar um repositório remoto já existente para a maquina em que se está utilizando
