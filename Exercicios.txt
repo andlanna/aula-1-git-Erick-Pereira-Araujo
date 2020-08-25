@@ -1,2 +1,4 @@
 1) A- git init tem como propósito iniciar um repositório a partir de um diretório com dados
 B- git clone tem como propósito clonar um repositório remoto já existente para a maquina em que se está utilizando
+C- git branch serve para listar todas as branches do repositório e mostrar em qual branch você estará no momento
+D- git checkout serve para alterar para uma branch específica estando ela já criada ou não em caso de mudar apara uma branch específica já criada basta digitar git checkout nome da branch, para criar uma nova basta inserir a flag -b antes do nome da branch
