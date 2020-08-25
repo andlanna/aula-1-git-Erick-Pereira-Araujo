@@ -7,3 +7,6 @@ F- git pull busca as alterações mais recentes da branch atual armazenadas no r
 G- git add serve para adicionar uma "imagem" dos arquivos do diretorio na staging area e assim podendo analisar as mudanças dos arquivos realizadas no diretorio antes de realizar o commit
 H- git commit envia a "imagem" que foi salva na staging area dos arquivos do diretorio para o repositorio local, alem disso o commit salva a hora, data e nome do usuario que realizou as alterações nos arquivos
 I- git push atualiza os arquivos e informações do repositorio remoto com as ultimas atualizações feitas no repositorio local atravez dos commits, permitindo assim que outros usuarios do repositorio remoto visualizem as mudanças feitas e por quem foram feitas
+
+
+2) A diferença entre o git pull e o git fetch é que o git fetch busca as alterações mais recentes da branch atual armazenadas no repositório remoto SEM subistituir os arquivos do repositorio local e diretorio de trabalho pelos do repositorio remoto, já o git pull faz o mesmo porem subistituindo e atualizando os arquivos do repositorio local e diretorio de trabalho pelos do repositorio remoto
