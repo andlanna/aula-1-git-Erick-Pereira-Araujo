@@ -2,3 +2,8 @@
 B- git clone tem como propósito clonar um repositório remoto já existente para a maquina em que se está utilizando
 C- git branch serve para listar todas as branches do repositório e mostrar em qual branch você estará no momento
 D- git checkout serve para alterar para uma branch específica estando ela já criada ou não em caso de mudar apara uma branch específica já criada basta digitar git checkout nome da branch, para criar uma nova basta inserir a flag -b antes do nome da branch
+E- git fetch busca as alterações mais recentes da branch atual armazenadas no repositório remoto SEM subistituir os arquivos do repositorio local e diretorio de trabalho pelos do repositorio remoto
+F- git pull busca as alterações mais recentes da branch atual armazenadas no repositório remoto E subistitui os arquivos do repositorio local e diretorio de trabalho pelos do repositorio remoto
+G- git add serve para adicionar uma "imagem" dos arquivos do diretorio na staging area e assim podendo analisar as mudanças dos arquivos realizadas no diretorio antes de realizar o commit
+H- git commit envia a "imagem" que foi salva na staging area dos arquivos do diretorio para o repositorio local, alem disso o commit salva a hora, data e nome do usuario que realizou as alterações nos arquivos
+I- git push atualiza os arquivos e informações do repositorio remoto com as ultimas atualizações feitas no repositorio local atravez dos commits, permitindo assim que outros usuarios do repositorio remoto visualizem as mudanças feitas e por quem foram feitas
